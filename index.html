@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>weather API</title>
+</head>
+<!-- Ob havo -->
+
+<body>
+    <div class="container">
+        <div class="searchPlace">
+            <i class="fa-sharp fa-solid fa-location-dot" style="color: #000000;"></i>
+            <input type="text" name="searchInp" id="searchInp" placeholder="Shahar nomini kiriting">
+            <button id="search" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-city">
+            <img src="./images/error.png" alt="notFound">
+            <h2>Bunday joy ma'lum emas</h2>
+        </div>
+
+        <div class="weatherPlace">
+            <img src="" alt="">
+            <p class="temp"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weatherDetails">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="texts">
+                    <span></span>
+                    <p>Window speed</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
